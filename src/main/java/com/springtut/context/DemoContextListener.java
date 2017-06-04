@@ -28,7 +28,7 @@ public class DemoContextListener implements ServletContextListener {
 	public void contextInitialized(ServletContextEvent arg0) {
 		// TODO Auto-generated method stub
 		try {
-			JDBCConnectionPool.setupDataSource();
+//			JDBCConnectionPool.setupDataSource();
 			LogUtils.getInstance().message("Init db completed !");
 			
 //			streaming = new DataStreamingTimerTask();
